@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Reservacion en Hotel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body class="bg-danger">
+<form action="formulariohotel.html">
+
+
+    <h1 class="text-center"> Formulario Reservacion de Habitacion de un Hotel </h1>
+
+    <h2> Datos Personales</h2>
+    <li>    <label for="Numero de Habitacion">Numero de Habitacion</label> <br/> </li>
+    <li>    <input type="text" name="Numero de Habitacion"> <br/>  </li>
+
+    <li>    <label for="Nombre">Nombre</label> <br/> </li>
+    <li>   <input type="text" name="Nombre"> <br/> </li>
+
+    <li>  <label for="Apellido">Apellido</label> <br/> </li>
+    <li>  <input type="text" name="Apellido"> <br/> </li>
+
+    <li>  <label for="Genero">Genero</label> <br/> </li>
+    <li>  <input type="text" name="Genero"> <br/> </li>
+
+    <li>  <label for="Telefono">Telefono</label> <br/> </li>
+    <li> <input type="tel" name="Telefono" id="Telefono"> <br/> </li>
+
+    <li>  <label for="Email">Email</label> <br/> </li>
+    <li>  <input type="text" name="Genero"> <br/> </li>
+
+    <hr/>
+    <h2>   Reservacion y Pago de la Habitacion</h2>
+
+    <li>    <label for="Numero de Habitacion">Numero de Habitacion</label> <br/> </li>
+    <li>    <input type="text" name="Numero de Habitacion"> <br/>  </li>
+
+    <li>    <label for="No. de noches solicitadas">No. de noches solicitadas</label> <br/> </li>
+    <li>    <input type="text" name="No. de noches solicitadas"> <br/>  </li>
+
+    <li>    <label for="Hora de Ingreso">Hora de Ingreso</label> <br/> </li>
+    <li>    <input type="datetime" name="fechahora" id="fechahora"> <br/>  </li>
+
+    <li>    <label for="Hora de Egreso">Hora de Egreso</label> <br/> </li>
+    <li>    <input type="datetime" name="fechahora" id="fechahora"> <br/>  </li>
+    <p>
+    <li>    <label for="Tipo de Habitacion">Tipo de habitacion</label> <br/> </li>
+
+    <select name="Tipo de Habitacion">
+        <option value="Simple">Simple</option>
+        <option value="Doble">Doble</option>
+        <option value="Doble">mas de 2 personas</option>
+    </select>
+    </p>
+
+    <p>
+    <li>    <label for="Forma de Pago">Forma de Pago</label> <br/> </li>
+
+    <select name="Forma de Pago">
+        <option value="Efectivo">Efectivo</option>
+        <option value="Visa">Visa</option>
+        <option value="American Express">American Express</option>
+    </select>
+    </p>
+    <hr/>
+    <li> <input type="submit" class="btn-success" value="Enviar"> <br/> </li>
+
+
+</form>
+
+<form action="index.html">
+    <input type="submit" class="btn-primary" value="Regresar al menu">
+</form>
+</body>
+</html>
